@@ -434,6 +434,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.wifidisplaysession@1.0_vendor \
     btaudio_offload_if \
     audio.bluetooth_qti.default \
+    audio.primary.atoll \
     vendor.qti.hardware.bluetooth_audio@2.0-impl \
     vendor.qti.hardware.bluetooth_audio@2.1-impl \
     libFileMux_proprietary \
@@ -446,6 +447,7 @@ PRODUCT_PACKAGES += \
     libadiertac \
     libadm \
     libaudcal \
+    libaudio_log_utils \
     libaudioconfigstore \
     libaudioparsers \
     libbluetooth_audio_session_qti \
@@ -467,6 +469,7 @@ PRODUCT_PACKAGES += \
     libmulawdec \
     libpn553_fw \
     libqtigef \
+    libssrec \
     libsurround_3mic_proc \
     libwfdcodecv4l2_proprietary \
     libwfdcommonutils_proprietary \
