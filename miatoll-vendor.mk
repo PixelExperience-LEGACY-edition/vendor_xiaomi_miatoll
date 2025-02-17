@@ -351,6 +351,13 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/miatoll/proprietary/vendor/radio/qcril_database/upgrade/9_version_update_ecc_table_127531.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/9_version_update_ecc_table_127531.sql
 
 PRODUCT_PACKAGES += \
+    libOpenCL \
+    libarcsoft_dualcam_refocus \
+    libarcsoft_dualcam_refocus_front \
+    libarcsoft_dualcam_refocus_rear_t \
+    libarcsoft_dualcam_refocus_rear_w \
+    libarcsoft_portrait_lighting \
+    libarcsoft_portrait_lighting_c \
     libcamera_algoup_jni.xiaomi \
     libcamera_mianode_jni.xiaomi \
     libdoc_photo \
@@ -377,7 +384,7 @@ PRODUCT_PACKAGES += \
     libOmxEvrcDec \
     libOmxQcelp13Dec \
     libOmxWmaDec \
-    libOpenCL \
+    libOpenCL_vendor \
     libVkLayer_q3dtools \
     libadreno_app_profiles \
     libadreno_utils \
@@ -638,12 +645,12 @@ PRODUCT_PACKAGES += \
     libarcsoft_distortion_correction \
     libarcsoft_dualcam_image_optical_zoom \
     libarcsoft_dualcam_optical_zoom_control \
-    libarcsoft_dualcam_refocus \
-    libarcsoft_dualcam_refocus_front \
-    libarcsoft_dualcam_refocus_rear_t \
-    libarcsoft_dualcam_refocus_rear_w \
-    libarcsoft_portrait_lighting \
-    libarcsoft_portrait_lighting_c \
+    libarcsoft_dualcam_refocus_vendor \
+    libarcsoft_dualcam_refocus_front_vendor \
+    libarcsoft_dualcam_refocus_rear_t_vendor \
+    libarcsoft_dualcam_refocus_rear_w_vendor \
+    libarcsoft_portrait_lighting_vendor \
+    libarcsoft_portrait_lighting_c_vendor \
     libarcsoft_preview_deflicker \
     libarcsoft_supernight \
     libbeauty_face_interface \
@@ -713,7 +720,7 @@ PRODUCT_PACKAGES += \
     libmibokeh_712 \
     libminkdescriptor \
     libminksocket \
-    libmpbase \
+    libmpbase_vendor \
     libnetmgr \
     libnetmgr_common \
     libnetmgr_nr_fusion \
