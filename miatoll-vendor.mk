@@ -351,6 +351,17 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/miatoll/proprietary/vendor/radio/qcril_database/upgrade/9_version_update_ecc_table_127531.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/9_version_update_ecc_table_127531.sql
 
 PRODUCT_PACKAGES += \
+    libcamera_algoup_jni.xiaomi \
+    libcamera_mianode_jni.xiaomi \
+    libdoc_photo \
+    libdoc_photo_c++_shared \
+    libgallery_arcsoft_dualcam_refocus \
+    libgallery_arcsoft_portrait_lighting \
+    libgallery_arcsoft_portrait_lighting_c \
+    libgallery_mpbase \
+    libmibokeh_gallery \
+    librefocus \
+    librefocus_mibokeh \
     eglSubDriverAndroid \
     libEGL_adreno \
     libGLESv1_CM_adreno \
@@ -931,6 +942,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.fm@1.0 \
     vendor.qti.hardware.wifidisplaysession@1.0 \
     vendor.qti.imsrtpservice@3.0 \
+    MiuiExtraPhoto \
     CACertService \
     CneApp \
     IWlanService \
