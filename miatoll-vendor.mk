@@ -428,7 +428,6 @@ PRODUCT_PACKAGES += \
     libwfddisplayconfig_proprietary \
     libwfdhdcpcp \
     libspatialaudio \
-    vendor.qti.hardware.capabilityconfigstore@1.0 \
     vendor.qti.hardware.dsp@1.0 \
     vendor.qti.hardware.wifidisplaysession@1.0_vendor \
     btaudio_offload_if \
