@@ -409,6 +409,8 @@ PRODUCT_PACKAGES += \
     libmmosal_vendor \
     libpdmapper \
     libpdnotifier \
+    libprotobuf-cpp-full-3.9.1-vendorcompat \
+    libprotobuf-cpp-lite-3.9.1-vendorcompat \
     libqcci_legacy \
     libqcodec2 \
     libqdi \
