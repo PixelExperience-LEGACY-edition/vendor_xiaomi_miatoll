@@ -389,12 +389,14 @@ PRODUCT_PACKAGES += \
     libadreno_app_profiles \
     libadreno_utils \
     libc2d30_bltlib \
+    libcamera_nn_stub \
     libcamxfdalgov7 \
     libcamxfdalgov8 \
     libcamxfdengine \
     libcamxstatscore \
     libcamxswprocessalgo \
     libcamxtintlessalgo \
+    libcdsprpc \
     libdiag \
     libdsutils \
     libgpudataproducer \
@@ -422,10 +424,12 @@ PRODUCT_PACKAGES += \
     libqmi_legacy \
     libqmiservices \
     libqsocket \
+    libsnsapi \
     libwfddisplayconfig_proprietary \
     libwfdhdcpcp \
     libspatialaudio \
     vendor.qti.hardware.capabilityconfigstore@1.0 \
+    vendor.qti.hardware.dsp@1.0 \
     vendor.qti.hardware.wifidisplaysession@1.0_vendor \
     btaudio_offload_if \
     audio.bluetooth_qti.default \
@@ -658,12 +662,10 @@ PRODUCT_PACKAGES += \
     libc++_shared \
     libcacertclient \
     libcamera_dirty \
-    libcamera_nn_stub \
     libcamera_scene \
     libcdfw \
     libcdfw_remote_api \
     libcdsp_default_listener \
-    libcdsprpc \
     libcheckpid \
     libcne \
     libcneapiclient \
@@ -762,7 +764,6 @@ PRODUCT_PACKAGES += \
     libsnpe_dsp_domains_v2 \
     libsns_fastRPC_util \
     libsns_low_lat_stream_stub \
-    libsnsapi \
     libsnsdiaglog \
     libsoc_helper \
     libsoc_helper_jni \
@@ -832,7 +833,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.data.latency@1.0 \
     vendor.qti.hardware.data.lce@1.0 \
     vendor.qti.hardware.data.qmi@1.0 \
-    vendor.qti.hardware.dsp@1.0 \
     vendor.qti.hardware.mwqemadapter@1.0 \
     vendor.qti.hardware.qccsyshal@1.0 \
     vendor.qti.hardware.radio.am@1.0 \
